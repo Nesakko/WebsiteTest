@@ -1,8 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Nesakko"
-theme = "meghna-hugo"
-
 
 # post pagination
 paginate = "6"
@@ -13,7 +11,7 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
-############################# Plugins ##########################
+############################# Plugins #########################################
 # css plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -23,6 +21,8 @@ link = "plugins/themify-icons/themify-icons.css"
 link = "plugins/magnific-popup/magnific-popup.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/fork-awesome/css/fork-awesome.min.css"
 
 # js plugins
 [[params.plugins.js]]
@@ -38,41 +38,31 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/lazy-load/lozad.min.js"
 
-############################# Navigation ##################################
+############################# Navigation ######################################
 [[menu.main]]
 name = "About Us"
 URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "Service"
-URL = "services"
-weight = 2
-
-[[menu.main]]
 name = "Portfolio"
 URL = "portfolio"
-weight = 3
+weight = 2
 
 [[menu.main]]
 name = "Team"
 URL = "team"
-weight = 4
-
-[[menu.main]]
-name = "Pricing"
-URL = "pricing"
-weight = 5
+weight = 3
 
 [[menu.main]]
 name = "Blog"
 URL = "blog"
-weight = 6
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 7
+weight = 5
 
 #### external / static link ####
 #[[menu.static]]
@@ -80,14 +70,13 @@ weight = 7
 #URL = "https://themefisher.com/"
 #weight = 8
 
-############################# Default Parameters ##########################
+############################# Default Parameters ##############################
 [params]
-logo = "images/logo.png"
+#logo = "images/logo.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
-# Google Analitycs
-google_analitycs_id = "" # Your ID
+
 # post share
 post_share = true
 
@@ -96,49 +85,48 @@ post_share = true
 enable = true
 preloader = "images/logo.png"
 
-############################# social icons ##########################
+############################# social icons ####################################
 [[params.social]]
-icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-twitter"
+link = "https://twitter.com/Nesakko"
 
 [[params.social]]
-icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-mastodon"
+link = "https://misskey.io/@Nesakko"
 
 [[params.social]]
-icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-diaspora"
+link = "https://pod.dapor.net/people/61cec8f086010137677d48600054b5a3"
 
 [[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-pixelfed"
+link = "https://pixelfed.de/Nesakko"
 
 [[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-github"
+link = "https://github.com/Nesakko"
 
 [[params.social]]
-icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+icon = "fa fa-deviantart"
+link = "https://patreon.com/Nesakko"
 
 [[params.social]]
-icon = "icons/pixelfed.svg"
-link = "https://pixelfed.de/nesakko"
+icon = "fa fa-patreon"
+link = "https://patreon.com/Nesakko"
 
-################################ English Language ########################
+################################ Language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "Helloworld"
+copyright = "© Nesakko"
 
-################################ France Language ########################
 [Languages.fr]
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-copyright = "Helloworld"
+copyright = "© Nesakko"
