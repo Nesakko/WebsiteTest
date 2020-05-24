@@ -66,9 +66,9 @@ weight = 5
 
 #### external / static link ####
 #[[menu.static]]
-#name = "Themefisher"
-#URL = "https://themefisher.com/"
-#weight = 8
+#name = ""
+#URL = ""
+#weight = 6
 
 ############################# Default Parameters ##############################
 [params]
