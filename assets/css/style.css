@@ -128,7 +128,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #fegftr;
+  background-color: #fff;
 }
 
 .color {
@@ -291,7 +291,7 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: 700;
   font-size: 38px;
   color: #fff;
@@ -425,7 +425,7 @@ a:hover {
   background-attachment: fixed;
 }
 
-.hero-area {
+.banner-main {
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -434,7 +434,7 @@ a:hover {
   align-items: center;
 }
 
-.hero-area:before {
+.banner-main:before {
   content: '';
   background: rgba(0, 0, 0, 0.63);
   position: absolute;
@@ -444,12 +444,12 @@ a:hover {
   left: 0;
 }
 
-.hero-area .block {
+.banner-main .block {
   text-align: center;
   z-index: 99;
 }
 
-.hero-area .block .video-button {
+.banner-main .block .video-button {
   background: #fff;
   color: #57cbcc;
   display: inline-block;
@@ -458,34 +458,34 @@ a:hover {
   border-radius: 50px;
 }
 
-.hero-area .block .video-button i {
+.banner-main .block .video-button i {
   line-height: 60px;
   font-size: 20px;
   margin-left: 3px;
 }
 
-.hero-area .block h1 {
+.banner-main .block h1 {
   font-size: 90px;
   color: #fff;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 @media (max-width: 480px) {
-  .hero-area .block h1 {
+  .banner-main .block h1 {
     font-size: 60px;
   }
 }
 
-.hero-area .block p {
+.banner-main .block p {
   color: #fff;
   font-size: 20px;
   width: 70%;
   margin: 0 auto;
 }
 
-.hero-area .block .btn-transparent {
+.banner-main .block .btn-transparent {
   margin-top: 40px;
   border-color: #fff;
   padding: 14px 50px;
@@ -495,7 +495,7 @@ a:hover {
   letter-spacing: 1px;
 }
 
-.hero-area-video {
+.banner-main-video {
   height: 100vh;
   position: inherit !important;
   display: flex;
@@ -503,18 +503,18 @@ a:hover {
   align-items: center;
 }
 
-.hero-area-video .block {
+.banner-main-video .block {
   color: #fff;
   text-align: center;
 }
 
-.hero-area-video .block h1 {
+.banner-main-video .block h1 {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.hero-area-video .block p {
+.banner-main-video .block p {
   color: #fff;
   text-transform: uppercase;
   font-size: 12px;
@@ -522,7 +522,7 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.hero-area-video .block .btn-main {
+.banner-main-video .block .btn-main {
   margin-top: 20px;
 }
 
@@ -1219,7 +1219,7 @@ a:hover {
   margin: 0 0 6px;
   font-size: 20px;
   line-height: 1.5;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .note .media-wrapper {
@@ -1229,7 +1229,7 @@ a:hover {
 .note .excerpt h3 {
   font-size: 20px;
   line-height: 1.5;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 
 .all-post {
@@ -1523,7 +1523,7 @@ input#e-mail,
 .social-icon ul li a:hover i {
   color: #fff;
   opacity: 1;
-  -webkit-transform: rotate(-20deg) scale(1.6);
+  transform: rotate(-20deg) scale(1.6);
 }
 
 .social-icon ul li a i {
