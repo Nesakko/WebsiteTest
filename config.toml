@@ -103,6 +103,10 @@ icon = "fa fa-pixelfed"
 link = "https://pixelfed.de/Nesakko"
 
 [[params.social]]
+icon = "fa fa-peertube"
+link = "https://video.autizmo/Nesakko"
+
+[[params.social]]
 icon = "fa fa-github"
 link = "https://github.com/Nesakko"
 
@@ -116,17 +120,17 @@ link = "https://patreon.com/Nesakko"
 
 ################################ Language #####################################
 [Languages.en]
-languageName = "En"
+languageName = "English"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "© Nesakko"
+copyright = "©2020 Nesakko"
 
 [Languages.fr]
-languageName = "Fr"
+languageName = "Français"
 languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
-copyright = "© Nesakko"
+copyright = "©2020 Nesakko"
