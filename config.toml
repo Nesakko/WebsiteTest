@@ -65,10 +65,10 @@ URL = "contact"
 weight = 5
 
 #### external / static link ####
-#[[menu.static]]
-#name = ""
-#URL = ""
-#weight = 6
+[[menu.static]]
+name = "truc"
+URL = "https://twitter.com"
+weight = 6
 
 ############################# Default Parameters ##############################
 [params]
